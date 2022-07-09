@@ -7,14 +7,14 @@ It contains two important structures
  - `Permutation` holds a permutation of elements
 
 # Example
-`
+```julia
 permutation = Permutation([1, 4, 3])
 println(permutation)                      # prints [1, 4, 3]
 println(lexicographicindex(permutation))  # prints 2"
 next!(permutation)
 println(permutation)                      # prints [3, 1, 4]
 println(lexicographicindex(permutation))  # prints 3
-`
+```
 
 # How to run tests
 In Julia REPL press `]`.
