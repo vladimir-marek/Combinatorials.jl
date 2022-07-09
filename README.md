@@ -11,7 +11,7 @@ It contains two important structures
 permutation = Permutation([1, 4, 3])      # creates a new permutation
 println(permutation)                      # prints [1, 4, 3]
 println(lexicographicindex(permutation))  # prints 2
-next!(permutation)                        # changes the permutation to the nex one in the lexikographic order
+next!(permutation)                        # changes the permutation to the next one (lexikographic order)
 println(permutation)                      # prints [3, 1, 4]
 println(lexicographicindex(permutation))  # prints 3
 ```
