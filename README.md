@@ -8,10 +8,10 @@ It contains two important structures
 
 # Example
 ```julia
-permutation = Permutation([1, 4, 3])
+permutation = Permutation([1, 4, 3])      # creates a new permutation
 println(permutation)                      # prints [1, 4, 3]
-println(lexicographicindex(permutation))  # prints 2"
-next!(permutation)
+println(lexicographicindex(permutation))  # prints 2
+next!(permutation)                        # changes the permutation to the nex one in the lexikographic order
 println(permutation)                      # prints [3, 1, 4]
 println(lexicographicindex(permutation))  # prints 3
 ```
