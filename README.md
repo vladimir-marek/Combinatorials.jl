@@ -7,4 +7,4 @@ TBD
 
 # How to run tests
 In Julia REPL press `]`.
-Type test and press `Enter`.
+Type `test` and press `Enter`.
