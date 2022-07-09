@@ -6,7 +6,7 @@ It contains two important structures
  - `SimpleSortedBag` implements a multiset (bag) containing lexicographically sorted elements
  - `Permutation` holds a permutation of elements
 
-# Example
+## Example
 ```julia
 permutation = Permutation([1, 4, 3])      # creates a new permutation
 println(permutation)                      # prints [1, 4, 3]
@@ -16,6 +16,6 @@ println(permutation)                      # prints [3, 1, 4]
 println(lexicographicindex(permutation))  # prints 3
 ```
 
-# How to run tests
+## How to run tests
 In Julia REPL press `]`.
 Type `test` and press `Enter`.
