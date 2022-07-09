@@ -6,4 +6,5 @@ Performs permutations on an array
 TBD
 
 # How to run tests
-TBD
+In Julia REPL press `]`.
+Type test and press `Enter`.
